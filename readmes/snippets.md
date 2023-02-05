@@ -257,9 +257,10 @@ this addAction [
 	
 </details>    
 
-## Load crates into vehicles on mission start
+## Load an object into the nearest vehicle's cargo, put in object you want to load's init:
 
 <details>
+	
 ```	
 _v = nearestObjects [this, ["Car", "Tank"], 10]; 
 [this, _v select 0] call ace_cargo_fnc_loadItem;
