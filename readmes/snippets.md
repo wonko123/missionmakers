@@ -224,21 +224,3 @@ this addAction
 </details>
 
 	  
-## Explosion on a trigger
-
-<details>
-```
-Put the following in a server trigger's activation :
-
-bomb = "Bo_GBU12_LGB" createVehicle getMarkerPos "ex";
-```
-</details>
-
-	  
-## Fancy text
-  
-<details> 
-
-
-	  ```
-</details>
