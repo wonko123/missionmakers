@@ -238,16 +238,6 @@ bomb = "Bo_GBU12_LGB" createVehicle getMarkerPos "ex";
 
 <details>  
 	  
-	this addAction [
-  "Talk", 
-  { cutText ["<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><t shadow='2' size='2.0' color='#ffffff' font='PuristaMedium'>Your text here</t>", "PLAIN", 1, false, true];},
-  nil,
-	1.5,
-	true,
-	true,
-	"",
-	"true",
-	2,
-	false,
-	"",
-	""  
+	  
+  ```
+	</details>
