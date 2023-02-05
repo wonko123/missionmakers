@@ -256,3 +256,12 @@ this addAction [
 ```
 	
 </details>    
+
+## Load crates into vehicles on mission start
+
+<details>
+```	
+	_v = nearestObjects [this, ["Car", "Tank"], 10]; 
+[this, _v select 0] call ace_cargo_fnc_loadItem;
+```
+</details>
