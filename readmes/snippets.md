@@ -266,3 +266,26 @@ _v = nearestObjects [this, ["Car", "Tank"], 10];
 [this, _v select 0] call ace_cargo_fnc_loadItem;
 ```
 </details>
+
+## Handy addaction for hostages:
+
+<details>
+	
+```	
+call{this disableAI "RADIOPROTOCOL";};
+[
+  this,
+  [
+    "Aranel join Squad",
+    {[(_this select 0)] join player;},
+    [],
+    6,
+    false,
+    true,
+    "",
+    "true",
+    5
+  ]
+] remoteExec ["addAction", 0, true];
+```
+</details>
